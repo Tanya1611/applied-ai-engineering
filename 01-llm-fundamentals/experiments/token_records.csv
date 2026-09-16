@@ -1,0 +1,10 @@
+Text,Token Count,Actual Tokens
+Hello world,2,"Hello,  world"
+I am learning AI Engineering.,6,"I,  am,  learning,  AI,  Engineering, ."
+Artificial intelligence,2,"Artificial,  intelligence"
+customer_support_ticket_12345,6,"customer, _support, _ticket, _, 123, 45"
+"def calculate_interest(principal, rate): 
+    return principal * rate
+",15,"def,  calculate, _interest, (pr, incipal, ,,  rate, ):,  
+,    ,  return,  principal,  *,  rate, 
+"

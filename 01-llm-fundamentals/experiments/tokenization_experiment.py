@@ -46,13 +46,12 @@ record_token_data('''def calculate_interest(principal, rate):
 
 
 """
---------------------------------INSIGHT------------------------------------------
+-------------------------------------------------------------------------INSIGHT-----------------------------------------------------------------------------------
 
 I observed that human words and model tokens are not equivalent. (Specially refer last two input text results.")
 This matters in application design because token count determines how much input/context can fit into the model's context budget and contributes to inference cost.
 
-
----------------------------------OUTPUT------------------------------------------
+==========================================================================OUTPUT===================================================================================
 
 ---> Token Report for 'Hello world' <---
 Text: Hello world
@@ -60,7 +59,7 @@ Token Count: 2
 Actual Tokens: ['Hello', ' world']
 
 Successfully recorded to 01-llm-fundamentals/experiments/token_records.csv!
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ---> Token Report for 'I am learning AI Engineering.' <---
 Text: I am learning AI Engineering.
@@ -68,7 +67,7 @@ Token Count: 6
 Actual Tokens: ['I', ' am', ' learning', ' AI', ' Engineering', '.']
 
 Successfully recorded to 01-llm-fundamentals/experiments/token_records.csv!
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ---> Token Report for 'Artificial intelligence' <---
 Text: Artificial intelligence
@@ -76,7 +75,7 @@ Token Count: 2
 Actual Tokens: ['Artificial', ' intelligence']
 
 Successfully recorded to 01-llm-fundamentals/experiments/token_records.csv!
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ---> Token Report for 'customer_support_ticket_12345' <---
 Text: customer_support_ticket_12345
@@ -84,5 +83,5 @@ Token Count: 6
 Actual Tokens: ['customer', '_support', '_ticket', '_', '123', '45']
 
 Successfully recorded to 01-llm-fundamentals/experiments/token_records.csv!
-----------------------------------------------------------------------------------
+===================================================================================================================================================================
 """

@@ -1,3 +1,8 @@
+'''
+This experiment is a simplified simulation used to understand how token generation, response or output processing can contribute to latency. 
+Actual latency depends on model architecture, hardware, serving system, batching and implementation.
+'''
+
 import time
 
 def simulate_generation(num_tokens: int, delay_per_token: float = 0.05):
